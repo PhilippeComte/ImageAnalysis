@@ -1,0 +1,29 @@
+{
+  "name": "image-analysis",
+  "version": "1.0.1",
+  "author": "Al DeLucca",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "find-remove": "^0.2.12",
+    "multer": "^1.1.0",
+    "sox": "^0.1.0",
+    "mkdirp": "^0.5.1",
+    "node-uuid": "^1.4.7",
+    "watson-developer-cloud": "^1.12.4"
+  },
+  "engines": {
+    "node": ">=0.10.38"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/watson-developer-cloud/image-analysis.git"
+  },
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/watson-developer-cloud/image-analysis/issues"
+  }
+}
