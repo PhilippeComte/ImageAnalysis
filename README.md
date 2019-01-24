@@ -28,13 +28,10 @@ The application uses Node.js and npm so you will have to download and install th
 ## Troubleshooting
 
 Explain how to see the deploy logs
->License
 
->This sample code is licensed under Apache 2.0. Full license text is available in COPYING.
+## License
 
-## Contributing
-
-See CONTRIBUTING.
+This sample code is licensed under Apache 2.0. Full license text is available in COPYING.
 
 ## Open Source @ IBM
 
