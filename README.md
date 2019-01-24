@@ -6,22 +6,24 @@ The Image Analysis app let you recognize items in images and speak the resulting
 
 ## Lab Instructions: INSTRUCTIONS**
 
-Demo: http://image-analysis.mybluemix.net/
-Running locally
+Demo: http://image-analysis.mybluemix.net/.  TO BE DEPLOYED 
+## Running locally
 
 The application uses Node.js and npm so you will have to download and install them as part of the steps below.
 
-    Copy the credentials from your visual-recognition and text-to-speech service in Bluemix to vr.js and tts.js, you can see the credentials by going to bluemix.net.
+    1.Copy the credentials from your visual-recognition and text-to-speech service in IBM Cloud 
+    to vr.js and tts.js, 
+    you can see the credentials by going to cloud.ibm.com.
 
-    Install Node.js
+    2.Install Node.js
 
-    Go to the project folder in a terminal and run: npm install
+    3.Go to the project folder in a terminal and run: npm install
 
-    Start the application
+    4.Start the application
 
-    node app.js
+    5.node app.js
 
-    Go to http://localhost:3000
+    6.Go to http://localhost:3000
 
 ## Troubleshooting
 
