@@ -1,5 +1,25 @@
-# Update of ImageAnalysis
-jan 24 2019
+# Update of ImageAnalysis - iam_apikey and new versions
+# ISSUE INVALID CALLBACK : 
+> node app.js
+
+listening at: 3000
+fs.js:137
+    throw new ERR_INVALID_CALLBACK();
+    ^
+
+TypeError [ERR_INVALID_CALLBACK]: Callback must be a function
+    at makeCallback (fs.js:137:11)
+    at Object.unlink (fs.js:936:14)
+    at /Users/pcomte/Documents/GitHub/ImageAnalysis/routes/vr.js:43:10
+    at Request._callback (/Users/pcomte/Documents/GitHub/ImageAnalysis/node_modules/watson-developer-cloud/lib/requestwrapper.js:125:9)
+    at Request.self.callback (/Users/pcomte/Documents/GitHub/ImageAnalysis/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:182:13)
+    at Request.<anonymous> (/Users/pcomte/Documents/GitHub/ImageAnalysis/node_modules/request/request.js:1157:10)
+    at Request.emit (events.js:182:13)
+    at Gunzip.<anonymous> (/Users/pcomte/Documents/GitHub/ImageAnalysis/node_modules/request/request.js:1079:12)
+    at Object.onceWrapper (events.js:273:13)
+---------------------------
+jan 24 2019 
 Image Analysis
 
 The Image Analysis app let you recognize items in images and speak the resulting description. It uses Visual Recognition to identify objects in images, Machine Translation to translate the description into another language, and Text to Speech to pronounce the resulting translation.
