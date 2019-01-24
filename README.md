@@ -4,7 +4,7 @@ Image Analysis
 
 The Image Analysis app let you recognize items in images and speak the resulting description. It uses Visual Recognition to identify objects in images, Machine Translation to translate the description into another language, and Text to Speech to pronounce the resulting translation.
 
-Lab Instructions: INSTRUCTIONS
+**Lab Instructions: INSTRUCTIONS**
 
 Demo: http://image-analysis.mybluemix.net/
 Running locally
