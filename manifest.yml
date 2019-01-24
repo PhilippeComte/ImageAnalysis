@@ -1,0 +1,14 @@
+---
+applications:
+- path: .
+Add functionality to the application: ability to read text in photos
+memory: 256M
+instances: 1
+domain: eu-gb.mybluemix.net
+name: image-analysis-master
+host: image-analysis-master-XY
+disk_quota: 1024M
+services:
+- csad_vr
+- csad_tts
+- csad_lt
