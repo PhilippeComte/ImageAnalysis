@@ -23,15 +23,17 @@ The application uses Node.js and npm so you will have to download and install th
 
     Go to http://localhost:3000
 
-Troubleshooting
+*Troubleshooting*
 
-Explain how to see the deploy logs in jazzhub
-License
+Explain how to see the deploy logs
+>License
 
-This sample code is licensed under Apache 2.0. Full license text is available in COPYING.
-Contributing
+>This sample code is licensed under Apache 2.0. Full license text is available in COPYING.
+
+*Contributing*
 
 See CONTRIBUTING.
+
 *Open Source @ IBM*
 
 Find more open source projects on the IBM Github Page http://ibm.github.io/
