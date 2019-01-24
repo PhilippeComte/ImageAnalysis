@@ -61,7 +61,7 @@ In this section we'll see how to add the possibility of translating the text rec
 4. In app.js, uncomment lines 22 and 32
 5. In public/index.html, uncomment from line 40 to 45
 6. Create a new file `lt.js` in the `routes` folder and paste in the following:
-```js
+
 'use strict';
 
 var watson = require('watson-developer-cloud');

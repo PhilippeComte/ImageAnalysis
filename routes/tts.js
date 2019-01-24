@@ -12,17 +12,23 @@
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
- */
+ /* var TextToSpeechV1 = require('watson-developer-cloud/text-to-speech/v1');
+
+  var textToSpeech = new TextToSpeechV1({
+  iam_apikey: '{apikey}',
+  url: '{url}'
+  });
+*/
 'use strict';
 
 var watson = require('watson-developer-cloud'),
   util = require('../util');
+var TextToSpeechV1 = require('watson-developer-cloud/text-to-speech/v1');
 var config = require('../config');
 
-var textToSpeech = watson.text_to_speech({
+var textToSpeech = new TextToSpeechV1({
   version: config.watson.text_to_speech.version,
-  username: process.env.USERNAME || config.watson.text_to_speech.username,
-  password: process.env.PASSWORD || config.watson.text_to_speech.password
+  iam_apikey: process.env.API_KEY || config.watson.text_to_speech.iam_apikey
 });
 
 module.exports.voices = function(req, res, next) {

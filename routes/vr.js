@@ -13,18 +13,18 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
 'use strict';
 
-var fs = require('fs'),
-  watson = require('watson-developer-cloud');
+var fs = require('fs');
+/*var watson = require('watson-developer-cloud'); */
+var VisualRecognitionV3 = require('watson-developer-cloud/visual-recognition/v3');
 var config = require('../config');
 
-var visualRecognition = watson.visual_recognition({
-  version: 'v3',
-  version_date: config.watson.visual_recognition.version_date,
-  api_key: process.env.API_KEY || config.watson.visual_recognition.api_key
+var visualRecognition = new VisualRecognitionV3 ({
+  version: config.watson.visual_recognition.version,
+  iam_apikey: process.env.API_KEY || config.watson.visual_recognition.iam_apikey
 });
-
 module.exports.recognize = function(req, res, next) {
   if (!req.file && !req.file.path) {
     return next({

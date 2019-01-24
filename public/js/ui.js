@@ -140,8 +140,8 @@ $(document).ready(function() {
     });
   }
 
- /* function translateSign(textObj) {
-    var text = textObj.images[0].text.replace(/_/gi, ' ') //: 'The image could not be recognize';
+  /* function translateSign(textObj) {
+    var text = textObj.images[0].text.replace(/_/gi, ' ') //: 'The image could not be recognized';
     var request = $.api.translate(text, model_LT);
     $.when(request).then(function(translationObj) {
       onSuccess(text, translationObj);
