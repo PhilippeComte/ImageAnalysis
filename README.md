@@ -36,4 +36,4 @@ See CONTRIBUTING.
 
 ## Open Source @ IBM
 
-Find more open source projects on the [IBM Github Page] (http://ibm.github.io/)
+Find more open source projects on the [IBM Github Page](http://ibm.github.io/)
